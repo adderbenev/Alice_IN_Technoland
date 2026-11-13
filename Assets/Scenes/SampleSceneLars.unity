@@ -8827,6 +8827,7 @@ GameObject:
   - component: {fileID: 1457994535}
   - component: {fileID: 1457994537}
   - component: {fileID: 1457994536}
+  - component: {fileID: 1457994538}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -8896,6 +8897,30 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1457994534}
   m_CullTransparentMesh: 1
+--- !u!114 &1457994538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1457994534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e823d2328c9df444a93f452f539289e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CanvasUIManager
+  dialogueDatabase: {fileID: 11400000, guid: 3f2eb8946249a1d4ba6d6d30cde3b595, type: 2}
+  questionText: {fileID: 314921684}
+  answerTexts:
+  - {fileID: 1099292700}
+  - {fileID: 715648449}
+  - {fileID: 1698513940}
+  - {fileID: 290227083}
+  answerButtons:
+  - {fileID: 947134776}
+  - {fileID: 134511754}
+  - {fileID: 1602387215}
+  - {fileID: 2007672184}
 --- !u!1 &1577374756
 GameObject:
   m_ObjectHideFlags: 0
@@ -13774,8 +13799,8 @@ SceneRoots:
   - {fileID: 488666811}
   - {fileID: 1390068114}
   - {fileID: 1887588991}
-  - {fileID: 725123051}
   - {fileID: 1683388501}
+  - {fileID: 725123051}
   - {fileID: 298321105}
   - {fileID: 900320756}
   - {fileID: 374480517}
