@@ -24,12 +24,4 @@ MonoBehaviour:
     - answerText: Not telling
       nextQuestionIndex: 1
   - questionText: Oh. I see.
-    answers:
-    - answerText: 
-      nextQuestionIndex: -1
-    - answerText: 
-      nextQuestionIndex: -1
-    - answerText: 
-      nextQuestionIndex: -1
-    - answerText: 
-      nextQuestionIndex: -1
+    answers: []
